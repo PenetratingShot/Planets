@@ -10,6 +10,13 @@ import UIKit
 
 class AboutView: UIViewController {
 
+    @IBAction func backButton(_ sender: UIButton) {
+        //add segue changer back to home screen
+    
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
