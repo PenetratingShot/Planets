@@ -10,6 +10,12 @@ import UIKit
 
 class SolarSystemView: UIViewController {
 
+    @IBAction func backButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueBack1", sender: self)
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

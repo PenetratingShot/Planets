@@ -9,14 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // Button that initiates guide
     @IBAction func exploreButton(_ sender: UIButton) {
         self.performSegue(withIdentifier: "startSegue", sender: self)
     }
     
+    // Button that initiates tour
     @IBAction func tourButton(_ sender: UIButton) {
     
-        //perform segue to tabbed view to initiate tutorial
     
     }
     

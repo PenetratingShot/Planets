@@ -15,9 +15,11 @@ class ExploreView: UIViewController {
     @IBOutlet weak var label6: UILabel!
     
     @IBAction func nextButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueToSolarSystem", sender: self)
+    }
     
-        //perform segue to next view
-        
+    @IBAction func cancelButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueToMain1", sender: self)
     }
     
     
