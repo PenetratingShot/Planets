@@ -1,36 +1,28 @@
 //
-//  AboutView.swift
+//  AboutView2.swift
 //  Planets
 //
-//  Created by Shreyas Lad on 12/21/17.
+//  Created by Shreyas Lad on 12/26/17.
 //  Copyright © 2017 Shreyas Lad. All rights reserved.
 //
 
 import UIKit
 
-class AboutView: UIViewController {
+class AboutView2: UIViewController {
 
-    
-    // try selective word coloring with selective string parsing
-    @IBOutlet weak var label1: UILabel!
-    @IBOutlet weak var label2: UILabel!
-    @IBOutlet weak var label3: UILabel!
-    @IBOutlet weak var label4: UILabel!
-    @IBOutlet weak var label5: UILabel!
-    
-    
-    @IBAction func backButton(_ sender: UIButton) {
-        //add segue changer back to home screen
-        self.performSegue(withIdentifier: "segueBack1", sender: self)
+    @IBAction func linkButton(_ sender: UIButton) {
+        UIApplication.shared.open(URL(string: "https://github.com/Penetratingshot/Planets.git")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func nextButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "nextSegue", sender: self)
+    @IBAction func doneButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueToMain1", sender: self)
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

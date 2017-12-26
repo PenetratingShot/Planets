@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890B3D841FF2C991000944E0 /* AboutView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B3D831FF2C991000944E0 /* AboutView2.swift */; };
 		89ACA3BC1FF20AE100E9F1E0 /* SolarSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ACA3BB1FF20AE100E9F1E0 /* SolarSystemView.swift */; };
 		B1EA4AA11FEC713B00249914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA4AA01FEC713B00249914 /* AppDelegate.swift */; };
 		B1EA4AA31FEC713B00249914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA4AA21FEC713B00249914 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		14D78A774C9D2C9AB59872F3 /* Pods_Planets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		890B3D831FF2C991000944E0 /* AboutView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView2.swift; sourceTree = "<group>"; };
 		89ACA3BB1FF20AE100E9F1E0 /* SolarSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemView.swift; sourceTree = "<group>"; };
 		A605BF30EBA30FB3B861406F /* Pods-Planets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planets.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planets/Pods-Planets.release.xcconfig"; sourceTree = "<group>"; };
 		B1EA4A9D1FEC713B00249914 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +109,7 @@
 				B1EA4AC51FEC7A0E00249914 /* ExploreView.swift */,
 				B1EA4AC91FEC7B1F00249914 /* AboutView.swift */,
 				89ACA3BB1FF20AE100E9F1E0 /* SolarSystemView.swift */,
+				890B3D831FF2C991000944E0 /* AboutView2.swift */,
 				B1EA4AA41FEC713B00249914 /* Main.storyboard */,
 				B1EA4AAC1FEC713B00249914 /* LaunchScreen.storyboard */,
 				B1EA4AAA1FEC713B00249914 /* Assets.xcassets */,
@@ -267,6 +270,7 @@
 				89ACA3BC1FF20AE100E9F1E0 /* SolarSystemView.swift in Sources */,
 				B1EA4AA11FEC713B00249914 /* AppDelegate.swift in Sources */,
 				B1EA4ACA1FEC7B1F00249914 /* AboutView.swift in Sources */,
+				890B3D841FF2C991000944E0 /* AboutView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
