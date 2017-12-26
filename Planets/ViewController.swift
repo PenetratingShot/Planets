@@ -14,6 +14,13 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "startSegue", sender: self)
     }
     
+    @IBAction func tourButton(_ sender: UIButton) {
+    
+        //perform segue to tabbed view to initiate tutorial
+    
+    }
+    
+    
     
     @IBAction func aboutButton(_ sender: UIButton) {
         //perform segue to AboutView

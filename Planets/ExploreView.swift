@@ -10,9 +10,20 @@ import UIKit
 
 class ExploreView: UIViewController {
 
+    @IBOutlet weak var label5: UILabel!
+    
+    @IBOutlet weak var label6: UILabel!
+    
+    @IBAction func nextButton(_ sender: UIButton) {
+    
+        //perform segue to next view
+        
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
