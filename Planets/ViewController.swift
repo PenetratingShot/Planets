@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         self.performSegue(withIdentifier: "startSegue", sender: self);
     }
     
+    @IBAction func aboutButton(_ sender: UIButton) {
+        //perform segue to AboutView
+        self.performSegue(withIdentifier: "seguetoAbout", sender: self)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

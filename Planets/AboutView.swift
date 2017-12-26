@@ -12,7 +12,7 @@ class AboutView: UIViewController {
 
     @IBAction func backButton(_ sender: UIButton) {
         //add segue changer back to home screen
-    
+        self.performSegue(withIdentifier: "segueBack1", sender: self)
     }
     
     
