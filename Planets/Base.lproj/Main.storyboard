@@ -56,8 +56,7 @@
                                     <color key="titleShadowColor" red="1" green="0.2527923882" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="explore:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oew-eg-JY2"/>
-                                    <action selector="exploreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="caB-BZ-BJW"/>
+                                    <action selector="exploreButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bvp-04-KJR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsc-Hr-2sl">
@@ -83,8 +82,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="explore" destination="Ggo-cN-X9k" id="2qe-qd-lvh"/>
-                        <segue destination="l4P-Sw-VbL" kind="show" identifier="startSegue" id="Jjq-ws-ZwK"/>
+                        <segue destination="l4P-Sw-VbL" kind="presentation" identifier="startSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Jjq-ws-ZwK"/>
                         <segue destination="nWT-V1-QM2" kind="show" identifier="seguetoAbout" id="C11-7G-Cbb"/>
                     </connections>
                 </viewController>
@@ -148,13 +146,13 @@
                     <view key="view" contentMode="scaleToFill" id="oIp-he-PLa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="gGH-NF-aR2"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H7Q-wZ-1Oo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="74" y="119"/>
+            <point key="canvasLocation" x="156" y="118"/>
         </scene>
     </scenes>
 </document>

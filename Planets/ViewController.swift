@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func explore(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "startSegue", sender: self);
+    @IBAction func exploreButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "startSegue", sender: self)
     }
+    
     
     @IBAction func aboutButton(_ sender: UIButton) {
         //perform segue to AboutView

@@ -27,7 +27,7 @@
  
  */
 
-import UIKit
+ /*import UIKit
 
 // MARK: - UIColor Methods Shorthand
 
@@ -132,38 +132,38 @@ Returns a randomly generated flat color object whose alpha value is 1.0.
 - returns: A flat UIColor object in the HSB colorspace.
 */
 public func RandomFlatColor() -> UIColor {
-    return UIColor.randomFlatColor()
+    return UIColor.randomFlat()
 }
 
 public func ClearColor() -> UIColor {
-    return UIColor.clearColor()
+    return UIColor.clear
 }
 
 
 // MARK: - Light Shades Shorthand
 
 public func FlatBlack() -> UIColor {
-	return UIColor.flatBlackColor() 
+    return UIColor.flatBlack()
 }
 
 public func FlatBlue() -> UIColor {
-	return UIColor.flatBlueColor() 
+    return UIColor.flatBlue()
 }
 
 public func FlatBrown() -> UIColor {
-	return UIColor.flatBrownColor() 
+    return UIColor.flatBrown()
 }
 
 public func FlatCoffee() -> UIColor {
-	return UIColor.flatCoffeeColor() 
+    return UIColor.flatCoffee()
 }
 
 public func FlatForestGreen() -> UIColor {
-	return UIColor.flatForestGreenColor() 
+    return UIColor.flatForestGreen()
 }
 
 public func FlatGray() -> UIColor {
-	return UIColor.flatGrayColor() 
+    return UIColor.flatGray()
 }
 
 public func FlatGreen() -> UIColor {
@@ -335,3 +335,4 @@ public func FlatWhiteDark() -> UIColor {
 public func FlatYellowDark() -> UIColor {
 	return UIColor.flatYellowColorDark() 
 }
+*/
