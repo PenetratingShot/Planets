@@ -1,24 +1,15 @@
 //
-//  SolarSystemView.swift
+//  SolarSystemView2ViewController.swift
 //  Planets
 //
-//  Created by Shreyas Lad on 12/25/17.
+//  Created by Shreyas Lad on 12/28/17.
 //  Copyright © 2017 Shreyas Lad. All rights reserved.
 //
 
 import UIKit
 
-class SolarSystemView: UIViewController {
+class SolarSystemView2: UIViewController {
 
-    @IBAction func backButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "segueBack1", sender: self)
-    }
-    
-    @IBAction func nextButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "segueSolarSystem", sender: self)
-    }
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 

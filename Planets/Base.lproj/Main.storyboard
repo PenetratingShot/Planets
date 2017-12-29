@@ -438,10 +438,10 @@
             </objects>
             <point key="canvasLocation" x="156" y="117.39130434782609"/>
         </scene>
-        <!--Solar System View-->
+        <!--Universe View-->
         <scene sceneID="5Iw-li-76r">
             <objects>
-                <viewController title="Solar System View" id="mta-ur-QTa" customClass="SolarSystemView" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Universe View" id="mta-ur-QTa" customClass="SolarSystemView" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bsp-AQ-I9z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -597,6 +597,7 @@
                                 <connections>
                                     <action selector="aboutButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w5r-1D-YAN"/>
                                     <action selector="nextButton:" destination="l4P-Sw-VbL" eventType="touchUpInside" id="dW9-Le-zde"/>
+                                    <action selector="nextButton:" destination="mta-ur-QTa" eventType="touchUpInside" id="zmM-dZ-hjw"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UIl-dO-huZ">
@@ -610,14 +611,48 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="QXM-Fb-uMO"/>
                     </view>
+                    <connections>
+                        <segue destination="g7B-Dm-PYs" kind="presentation" identifier="solarSystemSegue" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hgd-ah-f4e"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dq3-xO-74x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="997.60000000000002" y="115.59220389805098"/>
         </scene>
+        <!--Solar System-->
+        <scene sceneID="Eqy-95-Te0">
+            <objects>
+                <viewController title="Solar System" id="g7B-Dm-PYs" customClass="SolarSystemView2" customModule="Planets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YyB-9j-ejl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zph-XZ-yAy">
+                                <rect key="frame" x="146" y="50" width="83" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Bungee-Regular" family="Bungee" pointSize="40"/>
+                                <color key="textColor" red="0.45171880720000002" green="0.18628630039999999" blue="0.96084302659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Milky Way" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6S-fY-k7P">
+                                <rect key="frame" x="66" y="98" width="242" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Bungee-Regular" family="Bungee" pointSize="40"/>
+                                <color key="textColor" red="0.45171880720000002" green="0.18628630039999999" blue="0.96084302659999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="NZu-he-Gok"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S3U-F2-6zJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1775" y="118"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Jjq-ws-ZwK"/>
-        <segue reference="6TD-Yz-SAf"/>
+        <segue reference="YrN-q7-RSw"/>
+        <segue reference="yH3-qA-wG8"/>
     </inferredMetricsTieBreakers>
 </document>
