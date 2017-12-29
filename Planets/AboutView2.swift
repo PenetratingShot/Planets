@@ -11,7 +11,11 @@ import UIKit
 class AboutView2: UIViewController {
 
     @IBAction func linkButton(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://github.com/Penetratingshot/Planets.git")! as URL, options: [:], completionHandler: nil)
+        if #available(iOS 10.0, *) {
+            UIApplication.shared.open(URL(string: "https://github.com/Penetratingshot/Planets.git")! as URL, options: [:], completionHandler: nil)
+        } else {
+            // Fallback on earlier versions
+        }
     }
     
     @IBAction func doneButton(_ sender: UIButton) {

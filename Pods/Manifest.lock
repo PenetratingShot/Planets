@@ -1,17 +1,3 @@
-PODS:
-  - ChameleonFramework/Default (2.1.0)
-  - ChameleonFramework/Swift (2.1.0):
-    - ChameleonFramework/Default
-  - Pastel (0.3.0)
-
-DEPENDENCIES:
-  - ChameleonFramework/Swift
-  - Pastel (~> 0.3)
-
-SPEC CHECKSUMS:
-  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  Pastel: 738740c84f2b15bbcd96ebe99c4e6c2f5dd42262
-
-PODFILE CHECKSUM: d54dc48176a840b927b346df84fab9d249b339ed
+PODFILE CHECKSUM: c2d07c942cf3a50518c0292c0f7abcbc36f4b6c1
 
 COCOAPODS: 1.2.0
