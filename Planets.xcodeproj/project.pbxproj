@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		890B3D841FF2C991000944E0 /* AboutView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890B3D831FF2C991000944E0 /* AboutView2.swift */; };
 		8978B4271FF60F5200B0CB71 /* SolarSystemView2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978B4261FF60F5200B0CB71 /* SolarSystemView2ViewController.swift */; };
+		8978B42F1FF6D4A300B0CB71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978B42E1FF6D4A300B0CB71 /* AppDelegate.swift */; };
+		8978B4311FF6D4A300B0CB71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978B4301FF6D4A300B0CB71 /* ViewController.swift */; };
+		8978B4341FF6D4A300B0CB71 /* PlanetsMac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8978B4321FF6D4A300B0CB71 /* PlanetsMac.xcdatamodeld */; };
+		8978B4361FF6D4A300B0CB71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8978B4351FF6D4A300B0CB71 /* Assets.xcassets */; };
+		8978B4391FF6D4A300B0CB71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8978B4371FF6D4A300B0CB71 /* Main.storyboard */; };
+		8978B4451FF6D4A300B0CB71 /* PlanetsMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978B4441FF6D4A300B0CB71 /* PlanetsMacTests.swift */; };
+		8978B4501FF6D4A300B0CB71 /* PlanetsMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978B44F1FF6D4A300B0CB71 /* PlanetsMacUITests.swift */; };
 		89ACA3BC1FF20AE100E9F1E0 /* SolarSystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89ACA3BB1FF20AE100E9F1E0 /* SolarSystemView.swift */; };
 		B1EA4AA11FEC713B00249914 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA4AA01FEC713B00249914 /* AppDelegate.swift */; };
 		B1EA4AA31FEC713B00249914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1EA4AA21FEC713B00249914 /* ViewController.swift */; };
@@ -29,10 +36,41 @@
 		F27ECFB29A84D19A6F461E41 /* Pods_Planets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D78A774C9D2C9AB59872F3 /* Pods_Planets.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8978B4411FF6D4A300B0CB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EA4A951FEC713B00249914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8978B42B1FF6D4A300B0CB71;
+			remoteInfo = PlanetsMac;
+		};
+		8978B44C1FF6D4A300B0CB71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1EA4A951FEC713B00249914 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8978B42B1FF6D4A300B0CB71;
+			remoteInfo = PlanetsMac;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		14D78A774C9D2C9AB59872F3 /* Pods_Planets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		890B3D831FF2C991000944E0 /* AboutView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView2.swift; sourceTree = "<group>"; };
 		8978B4261FF60F5200B0CB71 /* SolarSystemView2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemView2ViewController.swift; sourceTree = "<group>"; };
+		8978B42C1FF6D4A300B0CB71 /* PlanetsMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlanetsMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978B42E1FF6D4A300B0CB71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8978B4301FF6D4A300B0CB71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8978B4331FF6D4A300B0CB71 /* PlanetsMac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlanetsMac.xcdatamodel; sourceTree = "<group>"; };
+		8978B4351FF6D4A300B0CB71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8978B4381FF6D4A300B0CB71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8978B43A1FF6D4A300B0CB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978B43B1FF6D4A300B0CB71 /* PlanetsMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlanetsMac.entitlements; sourceTree = "<group>"; };
+		8978B4401FF6D4A300B0CB71 /* PlanetsMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetsMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978B4441FF6D4A300B0CB71 /* PlanetsMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsMacTests.swift; sourceTree = "<group>"; };
+		8978B4461FF6D4A300B0CB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8978B44B1FF6D4A300B0CB71 /* PlanetsMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlanetsMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8978B44F1FF6D4A300B0CB71 /* PlanetsMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsMacUITests.swift; sourceTree = "<group>"; };
+		8978B4511FF6D4A300B0CB71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89ACA3BB1FF20AE100E9F1E0 /* SolarSystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolarSystemView.swift; sourceTree = "<group>"; };
 		A605BF30EBA30FB3B861406F /* Pods-Planets.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planets.release.xcconfig"; path = "Pods/Target Support Files/Pods-Planets/Pods-Planets.release.xcconfig"; sourceTree = "<group>"; };
 		B1EA4A9D1FEC713B00249914 /* Planets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planets.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +95,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8978B4291FF6D4A300B0CB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B43D1FF6D4A300B0CB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B4481FF6D4A300B0CB71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1EA4A9A1FEC713B00249914 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,6 +127,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8978B42D1FF6D4A300B0CB71 /* PlanetsMac */ = {
+			isa = PBXGroup;
+			children = (
+				8978B42E1FF6D4A300B0CB71 /* AppDelegate.swift */,
+				8978B4301FF6D4A300B0CB71 /* ViewController.swift */,
+				8978B4351FF6D4A300B0CB71 /* Assets.xcassets */,
+				8978B4371FF6D4A300B0CB71 /* Main.storyboard */,
+				8978B43A1FF6D4A300B0CB71 /* Info.plist */,
+				8978B43B1FF6D4A300B0CB71 /* PlanetsMac.entitlements */,
+				8978B4321FF6D4A300B0CB71 /* PlanetsMac.xcdatamodeld */,
+			);
+			path = PlanetsMac;
+			sourceTree = "<group>";
+		};
+		8978B4431FF6D4A300B0CB71 /* PlanetsMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				8978B4441FF6D4A300B0CB71 /* PlanetsMacTests.swift */,
+				8978B4461FF6D4A300B0CB71 /* Info.plist */,
+			);
+			path = PlanetsMacTests;
+			sourceTree = "<group>";
+		};
+		8978B44E1FF6D4A300B0CB71 /* PlanetsMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8978B44F1FF6D4A300B0CB71 /* PlanetsMacUITests.swift */,
+				8978B4511FF6D4A300B0CB71 /* Info.plist */,
+			);
+			path = PlanetsMacUITests;
+			sourceTree = "<group>";
+		};
 		A78E26E6F678CD6362BED78B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +177,9 @@
 				B1EA4AB81FEC717B00249914 /* Quicksand-Medium.ttf */,
 				B1EA4AB91FEC717B00249914 /* Quicksand-Regular.ttf */,
 				B1EA4A9F1FEC713B00249914 /* Planets */,
+				8978B42D1FF6D4A300B0CB71 /* PlanetsMac */,
+				8978B4431FF6D4A300B0CB71 /* PlanetsMacTests */,
+				8978B44E1FF6D4A300B0CB71 /* PlanetsMacUITests */,
 				B1EA4A9E1FEC713B00249914 /* Products */,
 				A78E26E6F678CD6362BED78B /* Pods */,
 				D2A6E53122093A4288F4A7BC /* Frameworks */,
@@ -96,6 +190,9 @@
 			isa = PBXGroup;
 			children = (
 				B1EA4A9D1FEC713B00249914 /* Planets.app */,
+				8978B42C1FF6D4A300B0CB71 /* PlanetsMac.app */,
+				8978B4401FF6D4A300B0CB71 /* PlanetsMacTests.xctest */,
+				8978B44B1FF6D4A300B0CB71 /* PlanetsMacUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,6 +230,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		8978B42B1FF6D4A300B0CB71 /* PlanetsMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978B4581FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMac" */;
+			buildPhases = (
+				8978B4281FF6D4A300B0CB71 /* Sources */,
+				8978B4291FF6D4A300B0CB71 /* Frameworks */,
+				8978B42A1FF6D4A300B0CB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlanetsMac;
+			productName = PlanetsMac;
+			productReference = 8978B42C1FF6D4A300B0CB71 /* PlanetsMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8978B43F1FF6D4A300B0CB71 /* PlanetsMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978B4591FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMacTests" */;
+			buildPhases = (
+				8978B43C1FF6D4A300B0CB71 /* Sources */,
+				8978B43D1FF6D4A300B0CB71 /* Frameworks */,
+				8978B43E1FF6D4A300B0CB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8978B4421FF6D4A300B0CB71 /* PBXTargetDependency */,
+			);
+			name = PlanetsMacTests;
+			productName = PlanetsMacTests;
+			productReference = 8978B4401FF6D4A300B0CB71 /* PlanetsMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8978B44A1FF6D4A300B0CB71 /* PlanetsMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8978B45A1FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMacUITests" */;
+			buildPhases = (
+				8978B4471FF6D4A300B0CB71 /* Sources */,
+				8978B4481FF6D4A300B0CB71 /* Frameworks */,
+				8978B4491FF6D4A300B0CB71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8978B44D1FF6D4A300B0CB71 /* PBXTargetDependency */,
+			);
+			name = PlanetsMacUITests;
+			productName = PlanetsMacUITests;
+			productReference = 8978B44B1FF6D4A300B0CB71 /* PlanetsMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		B1EA4A9C1FEC713B00249914 /* Planets */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B1EA4AB21FEC713B00249914 /* Build configuration list for PBXNativeTarget "Planets" */;
@@ -163,6 +313,20 @@
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Shreyas Lad";
 				TargetAttributes = {
+					8978B42B1FF6D4A300B0CB71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					8978B43F1FF6D4A300B0CB71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8978B42B1FF6D4A300B0CB71;
+					};
+					8978B44A1FF6D4A300B0CB71 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8978B42B1FF6D4A300B0CB71;
+					};
 					B1EA4A9C1FEC713B00249914 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -183,11 +347,37 @@
 			projectRoot = "";
 			targets = (
 				B1EA4A9C1FEC713B00249914 /* Planets */,
+				8978B42B1FF6D4A300B0CB71 /* PlanetsMac */,
+				8978B43F1FF6D4A300B0CB71 /* PlanetsMacTests */,
+				8978B44A1FF6D4A300B0CB71 /* PlanetsMacUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8978B42A1FF6D4A300B0CB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978B4361FF6D4A300B0CB71 /* Assets.xcassets in Resources */,
+				8978B4391FF6D4A300B0CB71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B43E1FF6D4A300B0CB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B4491FF6D4A300B0CB71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1EA4A9B1FEC713B00249914 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +453,32 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8978B4281FF6D4A300B0CB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978B4341FF6D4A300B0CB71 /* PlanetsMac.xcdatamodeld in Sources */,
+				8978B4311FF6D4A300B0CB71 /* ViewController.swift in Sources */,
+				8978B42F1FF6D4A300B0CB71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B43C1FF6D4A300B0CB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978B4451FF6D4A300B0CB71 /* PlanetsMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8978B4471FF6D4A300B0CB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978B4501FF6D4A300B0CB71 /* PlanetsMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B1EA4A991FEC713B00249914 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,7 +496,28 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		8978B4421FF6D4A300B0CB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8978B42B1FF6D4A300B0CB71 /* PlanetsMac */;
+			targetProxy = 8978B4411FF6D4A300B0CB71 /* PBXContainerItemProxy */;
+		};
+		8978B44D1FF6D4A300B0CB71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8978B42B1FF6D4A300B0CB71 /* PlanetsMac */;
+			targetProxy = 8978B44C1FF6D4A300B0CB71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		8978B4371FF6D4A300B0CB71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8978B4381FF6D4A300B0CB71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		B1EA4AA41FEC713B00249914 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,6 +537,122 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		8978B4521FF6D4A300B0CB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlanetsMac/PlanetsMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		8978B4531FF6D4A300B0CB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlanetsMac/PlanetsMac.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		8978B4541FF6D4A300B0CB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetsMac.app/Contents/MacOS/PlanetsMac";
+			};
+			name = Debug;
+		};
+		8978B4551FF6D4A300B0CB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlanetsMac.app/Contents/MacOS/PlanetsMac";
+			};
+			name = Release;
+		};
+		8978B4561FF6D4A300B0CB71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PlanetsMac;
+			};
+			name = Debug;
+		};
+		8978B4571FF6D4A300B0CB71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6EUGAYNT37;
+				INFOPLIST_FILE = PlanetsMacUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = ladshreyas.PlanetsMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = PlanetsMac;
+			};
+			name = Release;
+		};
 		B1EA4AB01FEC713B00249914 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -456,6 +809,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8978B4581FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978B4521FF6D4A300B0CB71 /* Debug */,
+				8978B4531FF6D4A300B0CB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978B4591FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978B4541FF6D4A300B0CB71 /* Debug */,
+				8978B4551FF6D4A300B0CB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8978B45A1FF6D4A300B0CB71 /* Build configuration list for PBXNativeTarget "PlanetsMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8978B4561FF6D4A300B0CB71 /* Debug */,
+				8978B4571FF6D4A300B0CB71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B1EA4A981FEC713B00249914 /* Build configuration list for PBXProject "Planets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -477,6 +857,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		8978B4321FF6D4A300B0CB71 /* PlanetsMac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8978B4331FF6D4A300B0CB71 /* PlanetsMac.xcdatamodel */,
+			);
+			currentVersion = 8978B4331FF6D4A300B0CB71 /* PlanetsMac.xcdatamodel */;
+			path = PlanetsMac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		B1EA4AA71FEC713B00249914 /* Planets.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
